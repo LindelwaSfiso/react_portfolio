@@ -4,12 +4,12 @@ import {IconBrandGithub, IconBrandLinkedin} from "@tabler/icons-react";
 export default function FooterSection() {
   return (
     <footer className="flex justify-center  sm:justify-between mt-4 py-3 mb-2">
-      <div>
-      <p className="text-xl font-bold">Dlamini Lindelwa Portfolio</p>
-      <p>All rights reserved @ 2023</p>
+      <div className="flex flex-col items-center sm:items-start">
+      <p className="text-xl font-bold py-0 my-0 mb-1">Dlamini Lindelwa Portfolio</p>
+      <p className="my-0 py-0">All rights reserved @ 2023</p>
       </div>
 
-      <div>
+      <div className={"hidden sm:block"}>
         <a
           href="https://github.com/LindelwaSfiso"
           target="_blank"

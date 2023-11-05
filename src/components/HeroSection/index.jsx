@@ -41,8 +41,8 @@ export default function HeroSection() {
                 <div className="grid-span-8 flex items-center text-white justify-start">
                     <div className="text-center sm:text-start">
                         <h1 className="text-xl sm:text-3xl font-bold">Hey there?</h1>
-                        <h3 className="font-extrabold text-3xl sm:text-6xl mt:3 sm:mt-0 big-heading">Dlamini S. Lindelwa</h3>
-                        <h1 className="font-bold text-xl sm:text-3xl mt:3 sm:mt-0">here.</h1>
+                        <h3 className="font-extrabold text-3xl sm:text-6xl mt:3 sm:mt-0 my-0">Dlamini S. Lindelwa</h3>
+                        <h1 className="font-bold text-xl sm:text-3xl">here.</h1>
 
                         <div
                             className="text-blue-500 text-xl sm:text-3xl mt-5 font-bold w-[100%] before:content-['\200b']">
