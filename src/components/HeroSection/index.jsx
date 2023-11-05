@@ -38,7 +38,7 @@ export default function HeroSection() {
         <StyledHeroSection>
             <div className="w-full grid grid-cols-1 sm:grid-cols-2  gap-2 my-4">
                 {/** intro text */}
-                <div className="grid-span-8 flex items-center text-white justify-start">
+                <div className="grid-span-12 md:grid-cols-8 flex items-center text-white justify-center md:justify-start">
                     <div className="text-center sm:text-start">
                         <h1 className="text-xl sm:text-3xl font-bold">Hey there?</h1>
                         <h3 className="font-extrabold text-3xl sm:text-6xl mt:3 sm:mt-0 my-0">Dlamini S. Lindelwa</h3>
@@ -71,7 +71,7 @@ export default function HeroSection() {
                 </div>
 
                 {/** hero image */}
-                <div className="grid-span-4 flex items-center justify-center">
+                <div className="grid-span-12 md:grid-cols-4 flex items-center justify-center">
                     <img
                         src={ProfilePicture}
                         alt="dlamini lindelwa profile pics"
