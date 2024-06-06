@@ -36,16 +36,16 @@ const skillCard = (index, icon, title, body) => {
     >
       <div className="group-hover:scale-110">{icon}</div>
 
-      <h5 className="mt-2 font-bold text-xl">{title}</h5>
+      <h5 className="mt-2 font-bold text-xl text-white">{title}</h5>
 
-      <h6 className="text-center text-lg mt-3">{body}</h6>
+      <h6 className="text-center text-base mt-3">{body}</h6>
     </div>
   );
 };
 
 export default function SkillsSection() {
   return (
-    <div>
+    <div className={"mt-8 md:mt-16"}>
       <p className="p-4 pl-0 text-xl sm:text-3xl font-bold capitalize">
         Skills
       </p>

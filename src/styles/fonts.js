@@ -1,28 +1,30 @@
 import { css } from 'styled-components';
+import localFont from "next/font/local";
 
-import CalibreRegularWoff from '../fonts/Calibre/Calibre-Regular.woff';
-import CalibreRegularWoff2 from '../fonts/Calibre/Calibre-Regular.woff2';
-import CalibreMediumWoff from '../fonts/Calibre/Calibre-Medium.woff';
-import CalibreMediumWoff2 from '../fonts/Calibre/Calibre-Medium.woff2';
-import CalibreSemiboldWoff from '../fonts/Calibre/Calibre-Semibold.woff';
-import CalibreSemiboldWoff2 from '../fonts/Calibre/Calibre-Semibold.woff2';
+const CalibreRegularWoff = localFont({ src: '../fonts/Calibre/Calibre-Regular.woff' })
+const CalibreRegularWoff2 = localFont({ src: '../fonts/Calibre/Calibre-Regular.woff2' })
+const CalibreMediumWoff = localFont({ src: '../fonts/Calibre/Calibre-Medium.woff'})
+const CalibreMediumWoff2 = localFont({ src: '../fonts/Calibre/Calibre-Medium.woff2'})
+const CalibreSemiboldWoff = localFont({ src: '../fonts/Calibre/Calibre-Semibold.woff'})
+const CalibreSemiboldWoff2 = localFont({ src: '../fonts/Calibre/Calibre-Semibold.woff2'})
 
-import CalibreRegularItalicWoff from '../fonts/Calibre/Calibre-RegularItalic.woff';
-import CalibreRegularItalicWoff2 from '../fonts/Calibre/Calibre-RegularItalic.woff2';
-import CalibreMediumItalicWoff from '../fonts/Calibre/Calibre-MediumItalic.woff';
-import CalibreMediumItalicWoff2 from '../fonts/Calibre/Calibre-MediumItalic.woff2';
-import CalibreSemiboldItalicWoff from '../fonts/Calibre/Calibre-SemiboldItalic.woff';
-import CalibreSemiboldItalicWoff2 from '../fonts/Calibre/Calibre-SemiboldItalic.woff2';
+const CalibreRegularItalicWoff = localFont({ src:'../fonts/Calibre/Calibre-RegularItalic.woff'});
+const CalibreRegularItalicWoff2 = localFont({ src:'../fonts/Calibre/Calibre-RegularItalic.woff2'});
+const CalibreMediumItalicWoff = localFont({ src:'../fonts/Calibre/Calibre-MediumItalic.woff'});
+const CalibreMediumItalicWoff2 = localFont({ src:'../fonts/Calibre/Calibre-MediumItalic.woff2'});
+const CalibreSemiboldItalicWoff = localFont({ src:'../fonts/Calibre/Calibre-SemiboldItalic.woff'});
+const CalibreSemiboldItalicWoff2 = localFont({ src:'../fonts/Calibre/Calibre-SemiboldItalic.woff2'});
 
-import SFMonoRegularWoff from '../fonts/SFMono/SFMono-Regular.woff';
-import SFMonoRegularWoff2 from '../fonts/SFMono/SFMono-Regular.woff2';
-import SFMonoSemiboldWoff from '../fonts/SFMono/SFMono-Semibold.woff';
-import SFMonoSemiboldWoff2 from '../fonts/SFMono/SFMono-Semibold.woff2';
+const SFMonoRegularWoff = localFont({ src:'../fonts/SFMono/SFMono-Regular.woff'});
+const SFMonoRegularWoff2 = localFont({ src:'../fonts/SFMono/SFMono-Regular.woff2'});
+const SFMonoSemiboldWoff = localFont({ src:'../fonts/SFMono/SFMono-Semibold.woff'});
+const SFMonoSemiboldWoff2 = localFont({ src:'../fonts/SFMono/SFMono-Semibold.woff2'});
 
-import SFMonoRegularItalicWoff from '../fonts/SFMono/SFMono-RegularItalic.woff';
-import SFMonoRegularItalicWoff2 from '../fonts/SFMono/SFMono-RegularItalic.woff2';
-import SFMonoSemiboldItalicWoff from '../fonts/SFMono/SFMono-SemiboldItalic.woff';
-import SFMonoSemiboldItalicWoff2 from '../fonts/SFMono/SFMono-SemiboldItalic.woff2';
+const SFMonoRegularItalicWoff = localFont({ src:'../fonts/SFMono/SFMono-RegularItalic.woff'});
+const SFMonoRegularItalicWoff2 = localFont({ src:'../fonts/SFMono/SFMono-RegularItalic.woff2'});
+const SFMonoSemiboldItalicWoff = localFont({ src:'../fonts/SFMono/SFMono-SemiboldItalic.woff'});
+const SFMonoSemiboldItalicWoff2 = localFont({ src:'../fonts/SFMono/SFMono-SemiboldItalic.woff2'});
+
 
 const calibreNormalWeights = {
   400: [CalibreRegularWoff, CalibreRegularWoff2],

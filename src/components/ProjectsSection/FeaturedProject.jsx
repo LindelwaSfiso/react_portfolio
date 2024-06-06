@@ -122,6 +122,7 @@ const StyledProject = styled.li`
   }
 
   .project-title {
+    z-index: 10;
     color: var(--lightest-slate);
     font-size: clamp(24px, 5vw, 28px);
 
@@ -157,7 +158,7 @@ const StyledProject = styled.li`
     border-radius: var(--border-radius);
     background-color: var(--light-navy);
     color: var(--light-slate);
-    font-size: var(--fz-lg);
+    font-size: var(--fz-md);
 
     @media (max-width: 768px) {
       padding: 20px 0;

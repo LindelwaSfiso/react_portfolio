@@ -57,7 +57,7 @@ const StyledLanguageStackIcon = styled.div`
 
 export default function LanguageStack() {
     return (
-        <div className="mt-4">
+        <div className="mt-8 md:mt-16">
             <p className="p-4 pl-0 text-xl sm:text-3xl font-bold capitalize">
                 Language Stack
             </p>

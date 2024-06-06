@@ -77,7 +77,7 @@ const GlobalStyle = createGlobalStyle`
     background-color: var(--navy);
     color: var(--slate);
     font-family: var(--font-sans);
-    font-size: var(--fz-xl);
+    font-size: var(--fz-lg);
     line-height: 1.3;
 
     @media (max-width: 480px) {
